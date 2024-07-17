@@ -1,0 +1,792 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+img,
+iframe {
+	max-width: 100%;
+	height: auto;
+	/* so that aspect ratio is kept even if height is declared in markup */
+	border: 0;
+	/* this stops a border if the image is inside a link */
+}
+
+body {
+font-family: arial, sans-serif;
+}
+
+body {
+	background-color: antiquewhite; /* American spelling */
+}
+header {
+	background-color: black;
+}
+header, footer {
+	text-align: center;
+}
+
+/*TYPOGRAPHY*/
+h1 {
+	font-size: 60px;
+	color: white; /*white*/
+	text-transform: uppercase;
+	font-family: "Karla", sans-serif;
+}
+th {
+	color: white
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+	background: rgba(0,00,0,.750)
+
+}
+
+td, th, td {
+	border: 1px solid #F3F3F3;
+	text-align: left;
+	padding: 8px;
+	color: white;
+	font-family: "Karla", sans-serif;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+h2 {
+	padding-bottom: 1em;
+	color: white;
+	text-align: left;
+	font-family: "Karla", sans-serif;
+	width: 63%;
+	letter-spacing: 0.6px;
+	word-spacing: 1.5px;
+	padding-top: 30px;
+
+	
+}
+
+
+.heading2 {
+	font-size: 50px;
+	font-family: "Karla", sans-serif;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 0px;
+	
+}
+
+.explore_car {
+	position: relative;
+	width: 30%;
+	float: left;
+	padding: 2%;
+}
+
+li {
+	padding-bottom: 1em;
+	color: white;
+	font-family: "Karla", sans-serif;
+	width: 80%;
+	letter-spacing: 0.6px;
+	word-spacing: 1.5px;
+	font-size: 15px;
+}
+p {
+	padding-bottom: 1em;
+	color: white;
+	text-align: left;
+	font-family: "Karla", sans-serif;
+	width: 63%;
+	letter-spacing: 0.6px;
+	word-spacing: 1.5px;
+	padding-top: 30px;
+
+	
+}
+
+.p_black {
+	padding-bottom: 1em;
+	color: black;
+	text-align: center;
+	font-family: "Karla", sans-serif;
+	width: 63%;
+	letter-spacing: 1px;
+}
+
+.item {
+	background-color: white;
+	padding: 1px;
+	margin: auto;
+	border-radius: 0px;
+	max-width: 1920px;
+	top: 0%;
+	position:inherit;
+}
+.thumbnail{
+	margin: 0;
+	display: block;
+}
+
+.item2 {
+	background-color: black;
+	padding: 1%;
+	margin: auto;
+	border-radius: 0px;
+	max-width: 1920px;
+	top: 0%;
+	position:inherit;
+}
+.item3 {
+	background-color:black;
+	padding: 0%;
+	margin: auto;
+	border-radius: 0px;
+	max-width: 1920px;
+	top: 0%;
+	position:inherit;
+}
+
+main {
+	max-width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item li {
+	margin-left: 25px;
+}
+
+blockquote {
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+nav {
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	background: #C1DEAF;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+nav a:hover {
+	background: #C0BAA9;
+	
+}
+body {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size:auto;
+}
+
+.black_heading {
+	color: black;
+	text-transform: uppercase;
+	font-size: 400%;
+	text-align: center;
+	margin-bottom: -60px;
+}
+.black_text{
+	color: black;
+	text-align: center;
+	font-size: 250%;
+	font-family: "Karla", sans-serif;
+	text-transform: uppercase;
+}
+
+.container {
+	position:absolute;
+	top: 0%;
+	margin-right: inherit;
+	right: 0%;
+	
+}
+
+.container2 {
+	top: 0%;
+	margin-right: inherit;
+	right: 0%;
+	width: 100%;
+	height: 0px;
+	
+}
+
+.banner_nav {
+	overflow: hidden;
+	background-color: black;
+	object-position: right;
+	float:inherit;
+}
+
+.banner_nav a {
+	float: right;
+	color:white;
+	text-align: center;
+	font-size: 20px;
+	padding: 16px 18px;
+	text-decoration: none;
+	border-bottom:groove;
+	border-bottom-color:#FFB03F;
+	font-family: "Karla", sans-serif;
+	text-transform: uppercase;
+	transition: 0.2s all
+}
+.banner_nav b {
+	float: right;
+	color:white;
+	text-align: center;
+	font-size: 20px;
+	padding: 16px 18px;
+	text-decoration: none;
+	border-bottom:groove;
+	border-bottom-color:#FFB03F;
+	font-family: "Karla", sans-serif;
+	text-transform: uppercase;
+	display: none;
+	transition: 0.2s all
+
+}
+
+.banner_nav c {
+	float: right;
+	color:white;
+	text-align: center;
+	font-size: 20px;
+	padding: 16px 18px;
+	text-decoration: none;
+	border-bottom:groove;
+	border-bottom-color:#FFB03F;
+	font-family: "Karla", sans-serif;
+	text-transform: uppercase;
+}
+
+
+a {
+	font-family:  "Karla", sans-serif;
+}
+
+.banner_nav b:hover {
+	float: right;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 16px 18px;
+	text-decoration: none;
+	border-bottom:groove;
+	border-bottom-color:white;
+	text-transform: uppercase;
+	background-color:#151312
+}
+
+.banner_nav a:hover{
+	float: right;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 16px 18px;
+	text-decoration: none;
+	border-bottom:groove;
+	border-bottom-color:white;
+	text-transform: uppercase;
+	background-color:#151312
+}
+
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 400px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: aliceblue;
+}
+
+.vehicle_container {
+	width: 100%;
+	position: relative;
+	margin: auto;
+	font-family:  "Karla", sans-serif;
+	
+}
+
+.vehicle_nav {
+	overflow: hidden;
+	background-color: white;
+	object-position: center;
+	float: inherit;
+	width: 100%;
+	
+}
+
+.vehicle_nav a {
+	text-align: center;
+	
+}
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.test_overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color:aliceblue;
+	border: thick;
+	border-color: black;
+}
+
+.explore_car:hover .test_overlay, .container_text {
+	opacity: 0.6;
+	border: thick;
+	border-color: black;
+	margin: auto;
+}
+
+.test_text {
+	font-size: 200%;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: "Karla", sans-serif;
+	text-transform: uppercase;
+	color: #120505;
+}
+
+.big_container {
+	margin: auto;
+	width: 1920;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 65px;
+}
+
+.article_big {
+	background-color: white;
+	padding: 5%;
+	margin: auto;
+	border-radius: 0px;
+	max-width: 1920px;
+	top: 0%;
+	position:inherit;
+	
+	height: auto;
+}
+
+
+.container_text{
+	position: absolute;
+	opacity: 0.1;
+}
+
+.test_container {
+	position: relative;
+	width: 30%;
+	float: left;
+	padding: 2%;
+}
+
+.test_container2 {
+	position: relative;
+	width: 50%;
+	float: left;
+	padding: 2%;
+}
+
+
+
+/* FORM */
+
+input[type=text], select {
+ 
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+	color: white;
+	background-color: #151312;
+	border-color: white;
+	text-emphasis-color: white;
+	font-family: "Karla", sans-serif;
+}
+
+input[type=submit] {
+
+  background-color:#E3E3E3;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	text-transform: uppercase;
+	font-family: "Karla", sans-serif;
+	font-size: 17px;
+	transition: 0.2s all
+}
+
+input[type=submit]:hover {
+  background-color:#ABABAB;
+	font-size: 16px;
+	border-radius: 0%;
+
+}
+
+
+formblack {
+	background-color: black;
+}
+
+
+form {
+	background-color: black;
+}
+.icon{
+	transition: 0.2s all
+}
+.icon:hover{
+}
+
+.Parallax {
+	background-image: url("Contact_Banner_2_016.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position:top;
+	background-repeat: no-repeat;
+	background-size: auto;
+
+}
+.product_dispplay  {
+	
+	height: 730px;
+	width: 430px;
+	border-color: white;
+	border:medium;
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	
+}
+
+.info_button {
+	
+	height: 50px;
+	width: 200px;
+	background-color: black;
+	padding: 0;
+	text-align: center;
+	margin: auto;
+
+	
+}
+a {
+	text-decoration: none;
+}
+
+
+
+footer {
+	
+text-align: center; font-size: 15px; padding: 0px; margin: auto; padding-top: 0px; color: white; margin-bottom: 30px;
+	font-family: "Karla", sans-serif;
+		letter-spacing: 0.6px;
+	word-spacing: 1.5px;
+	background-color: rgba(0,0,0,0.00)
+	
+}
+
+.footer_div {
+	
+	background-color: #CDCDCD;
+	height: 200px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.compress_image {
+	position: relative;
+	float: left;
+	padding: 2%;
+	width: 960px;
+}
+
+.compress_image2 {
+	position: relative;
+	float: left;
+	padding: 2%;
+	width: 700px;
+}
+
+.icons_container {
+	margin: auto;
+	width: 1920;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 65px;
+}
+
+
+.car_display {
+				border: thick;
+				border-color: aliceblue;
+				border-width: 200px;
+				background-color: white;
+				align-items: center;
+				display: flex;
+				justify-content: center;
+}
+
+@media screen and (max-width: 900px ) { 
+	.compress_image {
+		width: 0px;
+	}
+	.compress_image2 {
+		width: 0px;
+	}
+	.car_display {
+		border: thick;
+		border-color: aliceblue;
+		border-width: 200px;
+		background-color: white;
+		display: grid;
+
+}
+.icon{
+	transition: 0.2s all;
+}
+.icon:hover{
+}
+	.container2 {
+	top: 0%;
+	margin-right: inherit;
+	right: 0%;
+	width: 100%;
+	height: 40px;
+	
+}
+.banner_nav c {
+	float: right;
+	color:white;
+	text-align: center;
+	font-size: 20px;
+	padding: 16px 18px;
+	text-decoration: none;
+	border-bottom:groove;
+	border-bottom-color:#FFB03F;
+	font-family: "Karla", sans-serif;
+	text-transform: uppercase;
+	display: none;
+}
+	.banner_nav b {
+	float: left;
+	color:white;
+	text-align: center;
+	font-size: 20px;
+	padding: 16px 18px;
+	text-decoration: none;
+	border-bottom:groove;
+	border-bottom-color:#FFB03F;
+	font-family: "Karla", sans-serif;
+	text-transform: uppercase;
+	display:block;
+}
+	.banner_nav {
+		width: 100%;
+	}
+	.container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 900px ) { 
+
+	.test_container2 {
+		position: relative;
+		width: 90%;
+		float: left;
+		padding: 2%;
+
+	}
+		.compress_image2 {
+		width: 0px;
+	}
+	.icons_container {
+		margin: auto;
+		width: 1920;
+		align-items: center;
+		display:contents;
+		justify-content: center;
+		margin-top: 3%;
+		margin-bottom: 65px;
+		
+}
+
+	
+.social_container {
+	margin: auto;
+	width: 1920;
+	align-items: center;
+	display:contents;
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 65px;
+}
+	.social_box {
+	position: relative;
+	width: 20px;
+	float: left;
+	padding: 2%;
+}
+	.explore_car {
+		width: 70%;
+	}
+	.arrow-left2 {
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:15px solid white; 
+	padding-bottom: 3px;
+	float: left;
+		display: none;
+}
+}
+
+
+
+
+
+.purchase {
+	float: left;
+	color:white;
+	text-align: center;
+	font-size: 25px;
+	padding: 16px 18px;
+	text-decoration: none;
+	border:groove;
+	border-color:#FFB03F;
+	font-family: "Karla", sans-serif;
+	text-transform: uppercase;
+	background-color: black;
+	margin-top: 50px;
+	width: 400px;
+	margin-left: 0%;
+	transition: 0.2s all
+
+}
+.purchase:hover{
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	padding: 16px 18px;
+	text-decoration: none;
+	border:groove;
+	border-color:white;
+	text-transform: uppercase;
+	background-color:#151312;
+	margin-left: 0%;
+}
+
+.circle {
+	height: 40px;
+	width: 40px;
+	background-color:#CFCFCF;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.arrow-left {
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:15px solid white; 
+	padding-bottom: 3px;
+	float: left;
+}
+.arrow-left2 {
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:15px solid white; 
+	padding-bottom: 3px;
+	float: left;
+}
+
+.social_container {
+	margin: auto;
+	width: 1920;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 65px;
+}
+
+.social_box {
+	position: relative;
+	width: 50%;
+	float: left;
+	padding: 2%;
+}
+.circle2 {
+	height: 40px;
+	width: 40px;
+	background-color:#CFCFCF;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.circle2:focus {
+	height: 30px !important;
+	width: 30px !important;
+	background-color:#CFCFCF;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
